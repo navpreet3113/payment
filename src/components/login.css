@@ -11,7 +11,7 @@ body {
     font-family: "Poppins", sans-serif;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     background-image: url("https://av.sc.com/corp-en/content/images/SC-head-office-2022-scaled.jpg");
     background-repeat: no-repeat;
@@ -19,9 +19,11 @@ body {
     background-attachment: fixed;
 }
 
+
+
 .container {
     width: 300px;
-    height: 400px;
+    height: 280px;
     box-shadow: 0 0 17px 10px rgb(0 0 0 / 30%);
     border-radius: 20px;
     background: #78add2;
@@ -31,6 +33,7 @@ body {
 
     opacity: 0.95;
 }
+
 
 .login {
     display: flex;
