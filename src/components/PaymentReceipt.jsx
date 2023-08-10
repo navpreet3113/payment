@@ -1,7 +1,7 @@
 import React from "react";
 import "./paymentReceipt.css"; // Make sure to create a separate CSS file for the styles
 
-const PaymentReceipt = () => {
+const Receipt = () => {
   return (
     <div className="payment-receipt">
       <div className="navbar">
@@ -10,6 +10,15 @@ const PaymentReceipt = () => {
           alt="Company Logo"
           className="logo"
         />
+        <ul className="nav-links">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Log out</a>
+          </li>
+          
+        </ul>
       </div>
       <div className="container">
         <h1>Payment Receipt</h1>
@@ -49,4 +58,4 @@ const PaymentReceipt = () => {
   );
 };
 
-export default PaymentReceipt;
+export default Receipt;
